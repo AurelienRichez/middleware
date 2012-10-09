@@ -12,6 +12,7 @@ TestResults
 *.class
 .project
 .classpath
+.settings
 
 # Package Files #
 *.jar
