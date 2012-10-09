@@ -10,6 +10,8 @@ TestResults
 #java
 
 *.class
+.project
+.classpath
 
 # Package Files #
 *.jar
