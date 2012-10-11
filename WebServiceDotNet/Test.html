@@ -4,7 +4,13 @@
     <body>
         <form method="POST" action="http://localhost:9999/Contract.svc/BuildFromSourceStream" target="_blank">
         <p> 
-            Enter the file name: <input type="text" name="fileName"/>
+            Enter the file name (without extension): <input type="text" name="fileName"/>
+        </p>
+        <p>
+            <select name="technology" size="1"> 
+                <option>Java</option>
+                <!--<option>C#</option>-->
+            </select>
         </p>
         <p>
             <textarea name="sourceCode" cols="100" rows="25"></textarea>
